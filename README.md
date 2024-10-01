@@ -1,30 +1,56 @@
 # Code Pudding Sept 2024
+
 September 2024 Code Jam for TripleTen
 
-The object of this project we will build a machine learning model to predict the genre of a song, using data searched from the [Spotify Web API](https://developer.spotify.com/documentation/web-api). 
+The object of this project we will build a machine learning model to predict the genre of a song, using data searched from the [Spotify Web API](https://developer.spotify.com/documentation/web-api).
 
-## Team Members:
+## Team Members
+
 - [Michael Velasco](https://github.com/vekim91)
 - [Isaiah Montoya](https://github.com/IMMontoya)
 - [Michael Gleason](https://github.com/mtgleason)
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install all neccesary libraries:
+Follow these steps to set up the project locally on your machine.
+
+### 1. Clone the Repository
+
+First, clone the repository to your local machine using Git.
 
 ```bash
-pip install spotipy
-pip install python
-pip install pandas
-pip install matplotlib
-pip install seaborn
-pip install sklearn
-pip install lightgbm
-pip install catboost
+git clone https://github.com/IMMontoya/spotify_genre_predictor.git
 ```
 
+### 2. Create a Virtual Environment
 
-## Useage
+```bash
+python3 -m venv venv
+```
+
+### 3. Activate the Virtual Environment
+
+Mac/Linux:
+
+```bash
+source venv/bin/activate
+```
+
+Windows:
+
+```bash
+venv\Scripts\activate
+```
+
+### 4. Install the Required Libraries
+
+```bash
+pip install -r requirements.txt
+```
+
+**Note:** Python 3.10.12 was used for this project.
+
+## Usage
 
 A software able to read [Jupyter Notebook](https://jupyter.org/) files such as [VS Code](https://code.visualstudio.com/) is necessary.
 
@@ -37,16 +63,17 @@ Client_ID = 'ID_HERE'
 Client_secret = 'secret_HERE'
 ```
 
-## Data 
+## Data
 
 **Description of the spotify_data.csv:**
+
 - `track_id` - Unique ID for each track
 - `genre` - song genre (Target)
-- `danceability` 
-- `energy` 
+- `danceability`
+- `energy`
 - `key` - 1-12
-- `loudness` 
-- `mode` 
+- `loudness`
+- `mode`
 - `speechiness`
 - `acousticness`
 - `instrumentalness`
