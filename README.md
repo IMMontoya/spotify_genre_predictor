@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+- [Video Presentation](https://youtu.be/wWbh7Tuw_cM)
 - [Notebook](/Pudding.ipynb)
 - [Project Overview](#project-overview)
 - [Link to Original Repository](https://github.com/mtgleason/Sept_2024_Code_Jam)
